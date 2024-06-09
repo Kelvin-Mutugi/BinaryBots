@@ -153,10 +153,15 @@ p{
    width: 100px;
    height: fit-content;
  }
- #download:hover:active {
-     background :#59695A;
-
+ #download{
+   border-width: 5px;
+   
  }
+ #download:active{
+     background :#59695A;
+     
+ }
+ 
  .about{
    text-align: center;
    margin: 20px;
