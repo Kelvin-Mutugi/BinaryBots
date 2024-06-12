@@ -114,15 +114,16 @@ p{
  button{
    height: fit-content;
    width: 90%;
-   color: #FFFFFF;
-   background :#59695A;
    font-weight :700;
- }
- button:hover:active {
-   background: #738F74;
+   border-width: 2px;
  }
  #activate{
    width: 100px;
+   background :#59695A;
+
+ }
+ #active:hover:active {
+      background: #738F74;
  }
  .activatediv{
    padding: 15px;
@@ -154,13 +155,10 @@ p{
    height: fit-content;
  }
  #download{
-   border-width: 5px;
-   
+  border-radius:2px;
+  font-weight :700;
  }
- #download:active{
-     background :#59695A;
-     
- }
+ 
  
  .about{
    text-align: center;
