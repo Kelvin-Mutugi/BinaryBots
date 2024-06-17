@@ -18,7 +18,7 @@ function updateTime() {
   mins = Math.floor((elapsedTime / (1000 * 60)) % 60);
   hrs = Math.floor((elapsedTime / (1000 * 60 * 60)) % 60)
   console.log(secs)
-  if (mins >= 1) {
+  if (mins >= 2) {
 document.getElementById ('download').disabled = false
   }
 
